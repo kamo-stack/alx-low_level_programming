@@ -5,6 +5,6 @@
  */
 nt main(void)
 {
-	print("with proper grammer,but th out comris a piece of art,\n")
-       return (0);
+print("with proper grammer,but th out comris a piece of art,\n")
+return (0);
 }
