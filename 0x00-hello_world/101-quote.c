@@ -1,11 +1,11 @@
-#include <stdio.h>
 #include <unistd.h>
 /**
- * main  -  a c program that prints a line to to a standard error
- * Return 1 (Successful)
- * /
- int main(void)
-{             
-         fput("and that piece of art is useful" - Dora Korpar, 2015-10-19\n",stdout);
-	 return (1);
+ * main - this prints exactly the input on it
+ * Return: always 1.
+ */
+int main(void)
+{
+	write(2, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", 59);
+	return (1);
 }
+
