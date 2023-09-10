@@ -1,13 +1,17 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/* betty style doc for function main goes there */
+/**
+  betty style doc for function main goes there 
+  mainn -Entry point
+  Return: 0 (Sucess)
+  */
 int main(void)
 {
 	int n;
 	
 	srand(time(0));
-	n = rand() - RAND_MAX / 2;
+	n = rand() - RAND_MAX /2;
 	if (n > 0)
 	{
 
