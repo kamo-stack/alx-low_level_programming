@@ -1,4 +1,4 @@
-#include "mai.h"
+#include "main.h"
 
 /**
  * jack_bauer -Prints very minute of the day of Jack Bauer
