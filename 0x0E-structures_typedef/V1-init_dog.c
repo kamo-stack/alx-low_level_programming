@@ -1,13 +1,12 @@
-#include  "dog.h"
-#include <stddef.h>
-
+#include "dog.h"
 
 /**
- * init_dog - initializes a dog structure
+ * init_dog initializes a dog structure
  * @d: A dog structure
- * @name: The name of the dog
+ * @name: The name if the dog
  * @age: the age of the dog
  * @owner: the owner of the dog
+ *
  * Return: Nothing
  */
 
